@@ -1,5 +1,5 @@
 {
-  "name": "user-permissions-fe",
+  "name": "user-permissions",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +9,21 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.10.13",
+    "react-query": "^3.39.2",
+    "apisauce": "^2.1.5"
+  },
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.7.1"
   },
   "scripts": {
     "start": "react-scripts start",

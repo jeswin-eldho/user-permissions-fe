@@ -1,23 +1,108 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+## Common
+build/
+dist/
+out/
+*.log
+.env
+.env.test
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+## Linux
+*~
+*.swp
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
 
-# testing
-/coverage
-
-# production
-/build
-
-# misc
+## OS X
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
+## JetBrains
+.idea/
+cmake-build-*/
+*.iml
+*.iws
+.idea_modules/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+## VS Code
+.vscode/
+.history/
+
+## Xcode
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+/*.gcno
+*.hmap
+*.ipa
+*.xcuserstate
+Thumbs.db
+
+## Node
+logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+pids
+*.pid
+*.seed
+*.pid.lock
+lib-cov
+coverage
+*.lcov
+.nyc_output
+.grunt
+bower_components
+.lock-wscript
+user-permissions/node_modules/
+jspm_packages/
+web_modules/
+*.tsbuildinfo
+.npm
+.eslintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.node_repl_history
+*.tgz
+.yarn-integrity
+.cache
+.tern-port
+.vscode-test
+yarn.lock
+.yarn/
+.pnp.*
